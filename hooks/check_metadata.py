@@ -24,7 +24,7 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
         help='Filenames pre-commit believes are changed.',
     )
     parser.add_argument(
-        '--fields', type=int, default=None,
+        '--fields', default=None,
         help='List of metadata fields to check.',
     )
     args = parser.parse_args(argv)
