@@ -1,0 +1,5 @@
+-   id: check-metadata
+    name: Check a script for metadata comments
+    description: Prevent commit of files missing mandatory metadata.
+    entry: check-metadata
+    language: python
