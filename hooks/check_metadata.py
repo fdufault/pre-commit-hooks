@@ -22,7 +22,7 @@ def check_metadata(content, fields, filename):
         if not checklist[field]:
             print(filename, "missing metadata field:", field)
             status = 1
-    return status 
+    return status
 
 
 def main(argv: Optional[Sequence[str]] = None) -> int:
