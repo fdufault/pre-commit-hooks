@@ -30,7 +30,7 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
     args = parser.parse_args(argv)
     
     if args.fields is not None:
-        field_list = fields.split(",")
+        field_list = args.fields.split(",")
     else:
         return 0
 
