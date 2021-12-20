@@ -3,3 +3,4 @@
     description: Prevent commit of files missing mandatory metadata.
     entry: check-metadata
     language: python
+    types: [python]
