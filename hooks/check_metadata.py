@@ -5,7 +5,7 @@ import argparse
 
 def get_checklist(fields):
     checklist = {}
-    for field in fields.split(","):
+    for field in fields:
         checklist[field] = False
     return checklist
 
