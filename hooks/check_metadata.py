@@ -1,3 +1,5 @@
+from typing import Optional
+from typing import Sequence
 import argparse
 
 def check_metadata(content, field_list, filename):
