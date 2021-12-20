@@ -20,7 +20,7 @@ def check_metadata(content, fields, filename):
                     checklist[field] = True
     for field in checklist:
         if not checklist[field]:
-            print(filename, "missing field:", field)
+            print(filename, "missing metadata field:", field)
             status = 1
     return status 
 
